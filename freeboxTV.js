@@ -87,7 +87,7 @@ function byChannel(client) {
 function program_list(tts, client) {
 	
 	 
-	tts = (!tts) ? "Qu'est ce que tu veux comme test ?" : " ";
+	tts = (!tts) ? "Qu'est ce que tu veux comme test ?" : tts;
 	
 	
 	Avatar.askme (tts, client, 
